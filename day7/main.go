@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -11,5 +12,6 @@ func main() {
 	scanner.Split(bufio.ScanLines)
 	for scanner.Scan() {
 		txt := scanner.Text()
+		res := strings.Split(txt, ":")
 	}
 }

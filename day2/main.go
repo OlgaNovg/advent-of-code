@@ -38,7 +38,6 @@ func main() {
 	f, _ := os.Open("input.txt")
 	scanner := bufio.NewScanner(f)
 	scanner.Split(bufio.ScanLines)
-
 	res := 0
 	for scanner.Scan() {
 		line := strings.Split(scanner.Text(), " ")

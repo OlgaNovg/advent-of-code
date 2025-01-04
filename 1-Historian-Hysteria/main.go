@@ -71,7 +71,6 @@ func part1() {
 	res := 0
 	var myheap1 MinHeap
 	var myheap2 MinHeap
-
 	for scanner.Scan() {
 		line := strings.Split(scanner.Text(), "   ")
 		n1, _ := strconv.Atoi(line[0])
